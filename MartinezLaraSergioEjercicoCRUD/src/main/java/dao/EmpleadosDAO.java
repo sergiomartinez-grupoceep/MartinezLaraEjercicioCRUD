@@ -26,7 +26,7 @@ public class EmpleadosDAO {
         try {
             conexion = DriverManager.getConnection("jdbc:mysql://localhost/jardineria", "root", "");
         } catch (SQLException ex) {
-            System.err.println("Error en la conexión: " + ex.getMessage());
+            System.err.println("Error en la Conexión: " + ex.getMessage());
         }
     }
 
