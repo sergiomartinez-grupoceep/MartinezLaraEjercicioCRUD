@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author smlar
+ * @author SMLAra
  */
 public class EmpleadosDAO {
 
