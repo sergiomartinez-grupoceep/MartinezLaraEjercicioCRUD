@@ -178,7 +178,7 @@ public class EmpleadosDAO {
 
         // TODO hay que cambiar la select 
 
-        String sql = "SELECT * FROM Empleados HERWER";
+        String sql = "SELECT * FROM Empleados";
 
         if (conexion == null) {
             return empList;
