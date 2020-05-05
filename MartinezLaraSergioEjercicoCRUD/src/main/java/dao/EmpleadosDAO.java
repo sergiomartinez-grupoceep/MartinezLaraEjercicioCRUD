@@ -22,6 +22,9 @@ public class EmpleadosDAO {
 
     Connection conexion = null;
 
+    /**
+     * Clase para gestionar los datos en Mysql
+     */
     public EmpleadosDAO() {
         try {
             conexion = DriverManager.getConnection("jdbc:mysql://localhost/jardineria", "root", "");
